@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5CFBCB1BDFE74900902FD8 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE5CFBC91BDFE74900902FD8 /* exercise1.cpp */; };
+		DE5CFBCE1BE02A4700902FD8 /* exercise4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE5CFBCC1BE02A4700902FD8 /* exercise4.cpp */; };
 		DE7C04B01BD982FA0003AB0A /* ch13exercises.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE7C04AF1BD982FA0003AB0A /* ch13exercises.cpp */; };
-		DE7C04B81BD983390003AB0A /* brass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE7C04B61BD983390003AB0A /* brass.cpp */; settings = {ASSET_TAGS = (); }; };
+		DE7C04B81BD983390003AB0A /* brass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE7C04B61BD983390003AB0A /* brass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE5CFBC91BDFE74900902FD8 /* exercise1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
+		DE5CFBCA1BDFE74900902FD8 /* exercise1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = exercise1.hpp; sourceTree = "<group>"; };
+		DE5CFBCC1BE02A4700902FD8 /* exercise4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercise4.cpp; sourceTree = "<group>"; };
+		DE5CFBCD1BE02A4700902FD8 /* exercise4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = exercise4.hpp; sourceTree = "<group>"; };
 		DE7C04AC1BD982FA0003AB0A /* ch13-exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ch13-exercises"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7C04AF1BD982FA0003AB0A /* ch13exercises.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch13exercises.cpp; sourceTree = "<group>"; };
 		DE7C04B61BD983390003AB0A /* brass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = brass.cpp; sourceTree = "<group>"; };
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				DE7C04AF1BD982FA0003AB0A /* ch13exercises.cpp */,
+				DE5CFBCD1BE02A4700902FD8 /* exercise4.hpp */,
+				DE5CFBCC1BE02A4700902FD8 /* exercise4.cpp */,
 				DE7C04B71BD983390003AB0A /* brass.hpp */,
 				DE7C04B61BD983390003AB0A /* brass.cpp */,
+				DE5CFBCA1BDFE74900902FD8 /* exercise1.hpp */,
+				DE5CFBC91BDFE74900902FD8 /* exercise1.cpp */,
 			);
 			path = "ch13-exercises";
 			sourceTree = "<group>";
@@ -124,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7C04B01BD982FA0003AB0A /* ch13exercises.cpp in Sources */,
+				DE5CFBCB1BDFE74900902FD8 /* exercise1.cpp in Sources */,
+				DE5CFBCE1BE02A4700902FD8 /* exercise4.cpp in Sources */,
 				DE7C04B81BD983390003AB0A /* brass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +253,7 @@
 				DE7C04B51BD982FA0003AB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

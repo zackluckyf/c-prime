@@ -72,9 +72,7 @@ void BrassPlus::ViewAcct() const
 {
     format initialState = setFormat();
     precis prec = cout.precision(2);
-    cout << "Client: " << fullName << endl;
-    cout << "Account Number: " << acctNum << endl;
-    cout << "Balance: $" << balance << endl;
+    Brass::ViewAcct();
     cout << "Maximum loan: $" << maxLoan << endl;
     cout << "Owed to bank: $" << owesBank << endl;
     cout.precision(3);
@@ -93,6 +91,7 @@ void BrassPlus::Withdraw(double amt)
     else if (amt <= bal + maxLoan -owesBank)
     {
         double tempMoney = amt - bal;
+        balance = 0;
         owesBank += tempMoney * (1.0 + rate);
         double tempMoney2 = tempMoney * rate;
         cout << "Bank advance: $" << tempMoney << endl;

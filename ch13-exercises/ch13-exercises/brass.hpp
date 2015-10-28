@@ -16,9 +16,10 @@ using namespace std;
 
 class Brass
 {
-protected:
+private:
     std::string fullName;
     long acctNum;
+protected:
     double balance;
 public:
     Brass(const std::string & s = "Nullbody", long an = -1, double bal = 0.0);
